@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>childItems</key>
+		<array>
+			<dict>
+				<key>childItems</key>
+				<array/>
+				<key>choiceDescription</key>
+				<string>This package installs Python.framework, that is the python interpreter and the standard library.</string>
+				<key>choiceIdentifier</key>
+				<string>org.python.Python.PythonFramework-2.7</string>
+				<key>choiceIsEnabled</key>
+				<false/>
+				<key>choiceIsSelected</key>
+				<integer>1</integer>
+				<key>choiceIsVisible</key>
+				<true/>
+				<key>choiceSizeInKilobytes</key>
+				<integer>53476</integer>
+				<key>choiceTitle</key>
+				<string>Python Framework</string>
+				<key>pathsOfActivePackagesInChoice</key>
+				<array>
+					<string>file://localhost/Users/jonpopek/Downloads/python-2.7.18-macosx10.9.pkg#Python_Framework.pkg</string>
+				</array>
+			</dict>
+			<dict>
+				<key>childItems</key>
+				<array/>
+				<key>choiceDescription</key>
+				<string>This package installs IDLE (an interactive Python IDE), and Python Launcher.  It also installs a number of examples and demos.</string>
+				<key>choiceIdentifier</key>
+				<string>org.python.Python.PythonApplications-2.7</string>
+				<key>choiceIsEnabled</key>
+				<true/>
+				<key>choiceIsSelected</key>
+				<integer>0</integer>
+				<key>choiceIsVisible</key>
+				<true/>
+				<key>choiceSizeInKilobytes</key>
+				<integer>1689</integer>
+				<key>choiceTitle</key>
+				<string>GUI Applications</string>
+				<key>pathsOfActivePackagesInChoice</key>
+				<array>
+					<string>file://localhost/Users/jonpopek/Downloads/python-2.7.18-macosx10.9.pkg#Python_Applications.pkg</string>
+				</array>
+			</dict>
+			<dict>
+				<key>childItems</key>
+				<array/>
+				<key>choiceDescription</key>
+				<string>This package installs the unix tools in /usr/local/bin for compatibility with older releases of Python. This package is not necessary to use Python.</string>
+				<key>choiceIdentifier</key>
+				<string>org.python.Python.PythonUnixTools-2.7</string>
+				<key>choiceIsEnabled</key>
+				<true/>
+				<key>choiceIsSelected</key>
+				<integer>1</integer>
+				<key>choiceIsVisible</key>
+				<true/>
+				<key>choiceSizeInKilobytes</key>
+				<integer>11</integer>
+				<key>choiceTitle</key>
+				<string>UNIX command-line tools</string>
+				<key>pathsOfActivePackagesInChoice</key>
+				<array>
+					<string>file://localhost/Users/jonpopek/Downloads/python-2.7.18-macosx10.9.pkg#Python_Command_Line_Tools.pkg</string>
+				</array>
+			</dict>
+			<dict>
+				<key>childItems</key>
+				<array/>
+				<key>choiceDescription</key>
+				<string>This package installs the python documentation at a location that is useable for pydoc and IDLE.</string>
+				<key>choiceIdentifier</key>
+				<string>org.python.Python.PythonDocumentation-2.7</string>
+				<key>choiceIsEnabled</key>
+				<true/>
+				<key>choiceIsSelected</key>
+				<integer>1</integer>
+				<key>choiceIsVisible</key>
+				<true/>
+				<key>choiceSizeInKilobytes</key>
+				<integer>34079</integer>
+				<key>choiceTitle</key>
+				<string>Python Documentation</string>
+				<key>pathsOfActivePackagesInChoice</key>
+				<array>
+					<string>file://localhost/Users/jonpopek/Downloads/python-2.7.18-macosx10.9.pkg#Python_Documentation.pkg</string>
+				</array>
+			</dict>
+			<dict>
+				<key>childItems</key>
+				<array/>
+				<key>choiceDescription</key>
+				<string>This packages updates your shell profile to make sure that the Python tools are found by your shell in preference of the system provided Python tools.  If you don't install this package you'll have to add '/Library/Frameworks/Python.framework/Versions/2.7/bin' to your PATH by hand.</string>
+				<key>choiceIdentifier</key>
+				<string>org.python.Python.PythonProfileChanges-2.7</string>
+				<key>choiceIsEnabled</key>
+				<true/>
+				<key>choiceIsSelected</key>
+				<integer>1</integer>
+				<key>choiceIsVisible</key>
+				<true/>
+				<key>choiceSizeInKilobytes</key>
+				<integer>0</integer>
+				<key>choiceTitle</key>
+				<string>Shell profile updater</string>
+				<key>pathsOfActivePackagesInChoice</key>
+				<array>
+					<string>file://localhost/Users/jonpopek/Downloads/python-2.7.18-macosx10.9.pkg#Python_Shell_Profile_Updater.pkg</string>
+				</array>
+			</dict>
+			<dict>
+				<key>childItems</key>
+				<array/>
+				<key>choiceDescription</key>
+				<string>This package installs (or upgrades from an earlier version) pip, a tool for installing and managing Python packages.</string>
+				<key>choiceIdentifier</key>
+				<string>org.python.Python.PythonInstallPip-2.7</string>
+				<key>choiceIsEnabled</key>
+				<true/>
+				<key>choiceIsSelected</key>
+				<integer>1</integer>
+				<key>choiceIsVisible</key>
+				<true/>
+				<key>choiceSizeInKilobytes</key>
+				<integer>0</integer>
+				<key>choiceTitle</key>
+				<string>Install or upgrade pip</string>
+				<key>pathsOfActivePackagesInChoice</key>
+				<array>
+					<string>file://localhost/Users/jonpopek/Downloads/python-2.7.18-macosx10.9.pkg#Python_Install_Pip.pkg</string>
+				</array>
+			</dict>
+		</array>
+		<key>choiceIdentifier</key>
+		<string>__ROOT_CHOICE_IDENT_Python</string>
+		<key>choiceIsEnabled</key>
+		<true/>
+		<key>choiceIsSelected</key>
+		<integer>1</integer>
+		<key>choiceIsVisible</key>
+		<true/>
+		<key>choiceSizeInKilobytes</key>
+		<integer>0</integer>
+		<key>choiceTitle</key>
+		<string>Python</string>
+		<key>pathsOfActivePackagesInChoice</key>
+		<array/>
+	</dict>
+</array>
+</plist>
